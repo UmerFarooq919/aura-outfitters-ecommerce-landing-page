@@ -18,3 +18,27 @@ export default function Navbar({ cartCount = 2 }) {
           <a href="#about" className="hover:text-neutral-900 transition">About</a>
           <a href="#journal" className="hover:text-neutral-900 transition">Journal</a>
         </nav>
+        {/* Right Icons / Actions */}
+        <div className="flex items-center gap-4">
+          <button className="p-2 text-neutral-700 hover:text-neutral-900 hover:bg-neutral-100 rounded-full transition" aria-label="Search">
+            <Search className="w-5 h-5" />
+          </button>
+          
+          <button className="p-2 text-neutral-700 hover:text-neutral-900 hover:bg-neutral-100 rounded-full transition" aria-label="Account">
+            <User className="w-5 h-5" />
+          </button>
+
+          <button className="relative p-2 text-neutral-700 hover:text-neutral-900 hover:bg-neutral-100 rounded-full transition" aria-label="Cart">
+            <ShoppingBag className="w-5 h-5" />
+            {cartCount > 0 && (
+              <span className="absolute top-1 right-1 bg-neutral-900 text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+                {cartCount}
+              </span>
+            )}
+          </button>
+        </div>
+
+      </div>
+    </header>
+  );
+}
