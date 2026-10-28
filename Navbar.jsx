@@ -42,3 +42,12 @@ export default function Navbar({ cartCount = 2 }) {
     </header>
   );
 }
+
+import React from 'react';
+import { ArrowRight } from 'lucide-react';
+
+export default function HeroBanner() {
+  return (
+    <section className="relative bg-neutral-100 py-12 md:py-16">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="relative overflow-hidden rounded-2xl bg-neutral-200 min-h-[420px] md:min-h-[480px] flex items-center p-8 md:p-16"></div>
