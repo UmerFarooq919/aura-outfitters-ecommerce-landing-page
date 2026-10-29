@@ -51,3 +51,13 @@ export default function HeroBanner() {
     <section className="relative bg-neutral-100 py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="relative overflow-hidden rounded-2xl bg-neutral-200 min-h-[420px] md:min-h-[480px] flex items-center p-8 md:p-16"></div>
+        {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=1600&auto=format&fit=crop" 
+              alt="Aura Outfitters Premium Collection" 
+              className="w-full h-full object-cover object-center opacity-90"
+            />
+            {/* Soft Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-neutral-900/70 via-neutral-900/40 to-transparent"></div>
+          </div>
