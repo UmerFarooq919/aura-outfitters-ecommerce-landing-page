@@ -61,3 +61,11 @@ export default function HeroBanner() {
             {/* Soft Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-neutral-900/70 via-neutral-900/40 to-transparent"></div>
           </div>
+          {/* Hero Content */}
+          <div className="relative z-10 max-w-xl text-white">
+            <span className="inline-block text-xs font-bold uppercase tracking-widest text-neutral-300 mb-3 bg-white/10 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">
+              Men's & Urban Collection
+            </span>
+            <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight mb-4">
+              Premium Essentials <br className="hidden sm:block" />for Modern Style.
+            </h1>
