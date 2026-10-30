@@ -69,3 +69,12 @@ export default function HeroBanner() {
             <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight mb-4">
               Premium Essentials <br className="hidden sm:block" />for Modern Style.
             </h1>
+            <p className="text-neutral-200 text-sm md:text-base leading-relaxed mb-8 max-w-md">
+              Discover timeless streetwear, tailored pants, custom caps, and shoes designed for comfort and everyday versatility.
+            </p>
+
+            <div className="flex flex-wrap items-center gap-4">
+              <a href="#shop" className="inline-flex items-center gap-2 bg-white text-neutral-900 font-semibold px-6 py-3.5 rounded-lg text-sm hover:bg-neutral-200 transition-all shadow-md">
+                Shop Collection
+                <ArrowRight className="w-4 h-4" />
+              </a>
