@@ -78,3 +78,21 @@ export default function HeroBanner() {
                 Shop Collection
                 <ArrowRight className="w-4 h-4" />
               </a>
+              <a href="#new-arrivals" className="inline-flex items-center gap-2 bg-black/40 hover:bg-black/60 text-white font-medium px-6 py-3.5 rounded-lg text-sm backdrop-blur-sm border border-white/20 transition-all">
+                New Arrivals
+              </a>
+            </div>
+          </div>
+
+          {/* Slider Controls Indicator */}
+          <div className="absolute bottom-6 right-8 hidden sm:flex items-center gap-2 z-10">
+            <span className="w-8 h-1 bg-white rounded-full"></span>
+            <span className="w-2 h-1 bg-white/40 rounded-full"></span>
+            <span className="w-2 h-1 bg-white/40 rounded-full"></span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
