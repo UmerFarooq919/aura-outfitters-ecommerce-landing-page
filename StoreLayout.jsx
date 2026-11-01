@@ -40,4 +40,13 @@ export default function StoreLayout() {
                         selectedCategory === cat.name
                           ? 'bg-neutral-900 text-white shadow-sm'
                           : 'text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900'
-                      }`}></button>
+                      }`}>
+                        <span>{cat.name}</span>
+                      <span className={`text-xs ${selectedCategory === cat.name ? 'text-neutral-300' : 'text-neutral-400'}`}>
+                        ({cat.count})
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
