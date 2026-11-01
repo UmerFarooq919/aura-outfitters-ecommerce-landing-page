@@ -31,4 +31,13 @@ export default function StoreLayout() {
                   Categories
                 </h3>
               </div>
-              
+              <ul className="space-y-1.5">
+                {categories.map((cat) => (
+                  <li key={cat.name}>
+                    <button
+                      onClick={() => setSelectedCategory(cat.name)}
+                      className={`w-full flex items-center justify-between px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                        selectedCategory === cat.name
+                          ? 'bg-neutral-900 text-white shadow-sm'
+                          : 'text-neutral-600 hover:bg-neutral-100 hover:text-neutral-900'
+                      }`}></button>
