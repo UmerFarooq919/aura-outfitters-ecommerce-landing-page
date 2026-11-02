@@ -50,3 +50,32 @@ export default function StoreLayout() {
                 ))}
               </ul>
             </div>
+            {/* Secondary Left Promo Card (VELORA Style) */}
+            <div className="relative overflow-hidden rounded-2xl bg-neutral-900 text-white p-6 min-h-[320px] flex flex-col justify-end shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop"
+                alt="Timeless Style Promo"
+                className="absolute inset-0 w-full h-full object-cover opacity-50"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent"></div>
+
+              <div className="relative z-10 space-y-3">
+                <span className="text-[10px] uppercase font-bold tracking-widest text-neutral-300 bg-white/20 px-2.5 py-1 rounded-full backdrop-blur-md inline-block">
+                  Featured Look
+                </span>
+                <h4 className="text-xl font-bold leading-snug">
+                  Timeless Style,<br />Modern Living.
+                </h4>
+                <p className="text-xs text-neutral-300">
+                  Elevate your everyday outfit with modern luxury pieces.
+                </p>
+                <a
+                  href="#explore"
+                  className="inline-flex items-center gap-2 text-xs font-semibold text-white hover:text-neutral-300 transition-colors pt-2"
+                >
+                  Explore Now <ArrowRight className="w-3.5 h-3.5" />
+                </a>
+              </div>
+            </div>
+
+          </aside>
