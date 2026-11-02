@@ -79,3 +79,17 @@ export default function StoreLayout() {
             </div>
 
           </aside>
+          {/* RIGHT MAIN AREA (Placeholder for Product Grid) */}
+          <main className="lg:col-span-3">
+            <div className="bg-white p-8 rounded-2xl border border-neutral-200/80 min-h-[500px] flex items-center justify-center border-dashed">
+              <p className="text-neutral-400 text-sm">
+                Product Grid (Section 4) Yahan Active Selected Category: <strong className="text-neutral-800">{selectedCategory}</strong> ke mutabiq render hoga.
+              </p>
+            </div>
+          </main>
+
+        </div>
+      </div>
+    </section>
+  );
+}
