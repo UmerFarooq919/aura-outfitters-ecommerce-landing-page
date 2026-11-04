@@ -28,3 +28,28 @@ export default function ProductGrid() {
       image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop',
       tag: 'Sale'
     },
+    {
+      id: 4,
+      name: 'Classic Minimalist Cap',
+      category: 'Accessories',
+      price: '$40.00',
+      image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop',
+      tag: ''
+    },
+    {
+      id: 5,
+      name: 'Oversized Heavyweight Tee',
+      category: 'Shirts',
+      price: '$65.00',
+      image: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop',
+      tag: 'Popular'
+    },
+    {
+      id: 6,
+      name: 'Silk Blend Necktie',
+      category: 'Accessories',
+      price: '$50.00',
+      image: 'https://images.unsplash.com/photo-1589756823695-cb13bc92e4c4?q=80&w=800&auto=format&fit=crop',
+      tag: ''
+    }
+  ];
