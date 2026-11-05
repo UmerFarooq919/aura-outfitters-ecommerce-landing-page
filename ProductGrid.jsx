@@ -53,3 +53,12 @@ export default function ProductGrid() {
       tag: ''
     }
   ];
+  return (
+    <div className="space-y-6">
+      
+      {/* Grid Header & Sorting Options */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-neutral-200/80">
+        <div>
+          <h2 className="text-lg font-bold text-neutral-900">Featured Products</h2>
+          <p className="text-xs text-neutral-500">Showing 6 of 48 items</p>
+        </div>
