@@ -62,3 +62,28 @@ export default function ProductGrid() {
           <h2 className="text-lg font-bold text-neutral-900">Featured Products</h2>
           <p className="text-xs text-neutral-500">Showing 6 of 48 items</p>
         </div>
+        <div className="flex items-center gap-3">
+          <span className="text-xs text-neutral-500 font-medium">Sort by:</span>
+          <select className="bg-neutral-50 border border-neutral-200 text-neutral-800 text-xs rounded-lg px-3 py-2 outline-none focus:border-neutral-900 transition-all">
+            <option>Latest Collection</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Most Popular</option>
+          </select>
+        </div>
+      </div>
+      {/* Product Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {products.map((product) => (
+          <div 
+            key={product.id} 
+            className="group bg-white rounded-2xl border border-neutral-200/80 overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
+          >
+            {/* Image Container */}
+            <div className="relative aspect-[4/5] bg-neutral-100 overflow-hidden">
+              <img 
+                src={product.image} 
+                alt={product.name} 
+                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+              />
+              
