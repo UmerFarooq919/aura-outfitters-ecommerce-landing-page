@@ -92,3 +92,10 @@ export default function ProductGrid() {
                   {product.tag}
                 </span>
               )}
+              {/* Wishlist Button */}
+              <button 
+                className="absolute top-3 right-3 p-2 bg-white/80 backdrop-blur-md rounded-full text-neutral-700 hover:text-neutral-900 hover:bg-white transition-all shadow-sm"
+                aria-label="Wishlist"
+              >
+                <Heart className="w-4 h-4" />
+              </button>
