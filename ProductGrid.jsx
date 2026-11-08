@@ -86,4 +86,9 @@ export default function ProductGrid() {
                 alt={product.name} 
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               />
-              
+              {/* Tag Badge */}
+              {product.tag && (
+                <span className="absolute top-3 left-3 bg-neutral-900 text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
+                  {product.tag}
+                </span>
+              )}
