@@ -107,3 +107,18 @@ export default function ProductGrid() {
                 </button>
               </div>
             </div>
+            {/* Product Details */}
+            <div className="p-4 flex flex-col flex-grow justify-between">
+              <div>
+                <span className="text-[11px] font-semibold text-neutral-400 uppercase tracking-wider">
+                  {product.category}
+                </span>
+                <h3 className="text-sm font-bold text-neutral-900 mt-0.5 group-hover:text-neutral-700 transition-colors">
+                  {product.name}
+                </h3>
+              </div>
+
+              <div className="flex items-center justify-between mt-3 pt-3 border-t border-neutral-100">
+                <span className="text-sm font-extrabold text-neutral-900">
+                  {product.price}
+                </span>
