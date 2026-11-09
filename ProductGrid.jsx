@@ -122,3 +122,18 @@ export default function ProductGrid() {
                 <span className="text-sm font-extrabold text-neutral-900">
                   {product.price}
                 </span>
+                <div className="flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-neutral-900"></span>
+                  <span className="w-2 h-2 rounded-full bg-neutral-300"></span>
+                  <span className="w-2 h-2 rounded-full bg-neutral-200"></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        ))}
+      </div>
+
+    </div>
+  );
+}
