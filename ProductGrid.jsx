@@ -99,3 +99,11 @@ export default function ProductGrid() {
               >
                 <Heart className="w-4 h-4" />
               </button>
+              {/* Quick Add Overlay Button on Hover */}
+              <div className="absolute inset-x-3 bottom-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <button className="w-full bg-neutral-900/90 backdrop-blur-md text-white font-medium text-xs py-3 rounded-xl hover:bg-neutral-900 transition-all flex items-center justify-center gap-2 shadow-lg">
+                  <ShoppingBag className="w-4 h-4" />
+                  Quick Add
+                </button>
+              </div>
+            </div>
