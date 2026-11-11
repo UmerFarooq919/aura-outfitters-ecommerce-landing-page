@@ -42,3 +42,14 @@ export default function Footer() {
               <li><a href="#journal" className="hover:text-white transition-colors">Style Journal</a></li>
             </ul>
           </div>
+          {/* Customer Care (2 Columns) */}
+          <div className="lg:col-span-2 space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-white">Customer Care</h4>
+            <ul className="space-y-2.5 text-xs">
+              <li><a href="#" className="hover:text-white transition-colors">Track Order</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Shipping & Returns</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Size Guide</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">FAQ's</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
