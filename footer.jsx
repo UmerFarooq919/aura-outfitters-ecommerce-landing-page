@@ -16,3 +16,19 @@ export default function Footer() {
             <p className="text-xs text-neutral-400 leading-relaxed max-w-sm">
               Crafting premium streetwear, tailored essentials, and modern footwear designed for everyday comfort and timeless style.
             </p>
+            <div className="flex items-center gap-3 pt-2">
+              <a href="https://github.com/umerfarooq919" target="_blank" rel="noopener noreferrer" className="p-2 bg-neutral-800 rounded-full hover:bg-neutral-700 hover:text-white transition-colors">
+                <Github className="w-4 h-4" />
+              </a>
+              <a href="#" className="p-2 bg-neutral-800 rounded-full hover:bg-neutral-700 hover:text-white transition-colors">
+                <Instagram className="w-4 h-4" />
+              </a>
+              <a href="#" className="p-2 bg-neutral-800 rounded-full hover:bg-neutral-700 hover:text-white transition-colors">
+                <Twitter className="w-4 h-4" />
+              </a>
+              <a href="#" className="p-2 bg-neutral-800 rounded-full hover:bg-neutral-700 hover:text-white transition-colors">
+                <Facebook className="w-4 h-4" />
+              </a>
+            </div>
+          </div>
+          
