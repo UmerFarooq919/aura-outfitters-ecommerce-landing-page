@@ -31,4 +31,14 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+          {/* Quick Links (2 Columns) */}
+          <div className="lg:col-span-2 space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-white">Quick Links</h4>
+            <ul className="space-y-2.5 text-xs">
+              <li><a href="#home" className="hover:text-white transition-colors">Home Store</a></li>
+              <li><a href="#shop" className="hover:text-white transition-colors">Shop Collection</a></li>
+              <li><a href="#collections" className="hover:text-white transition-colors">New Arrivals</a></li>
+              <li><a href="#about" className="hover:text-white transition-colors">About Brand</a></li>
+              <li><a href="#journal" className="hover:text-white transition-colors">Style Journal</a></li>
+            </ul>
+          </div>
