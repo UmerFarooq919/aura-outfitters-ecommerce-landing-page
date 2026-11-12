@@ -53,4 +53,39 @@ export default function Footer() {
               <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
             </ul>
           </div>
-          
+          {/* Newsletter Box (4 Columns) */}
+          <div className="lg:col-span-4 space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-white">Join The Club</h4>
+            <p className="text-xs text-neutral-400">
+              Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.
+            </p>
+            <form onSubmit={(e) => e.preventDefault()} className="flex items-center gap-2 pt-1">
+              <input 
+                type="email" 
+                placeholder="Enter your email address" 
+                className="bg-neutral-800 border border-neutral-700 text-xs text-white px-4 py-3 rounded-xl focus:outline-none focus:border-white transition-all flex-grow"
+              />
+              <button 
+                type="submit" 
+                className="bg-white text-neutral-900 font-semibold px-4 py-3 rounded-xl text-xs hover:bg-neutral-200 transition-all flex items-center justify-center shrink-0"
+              >
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </form>
+          </div>
+
+        </div>
+        {/* Bottom Copyright & Legal */}
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
+          <p>© 2026 Aura Outfitters. All rights reserved.</p>
+          <div className="flex items-center gap-6">
+            <a href="#" className="hover:text-neutral-400 transition-colors">Privacy Policy</a>
+            <a href="#" className="hover:text-neutral-400 transition-colors">Terms of Service</a>
+            <a href="#" className="hover:text-neutral-400 transition-colors">Cookie Policy</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
+}
