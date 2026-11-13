@@ -16,6 +16,7 @@ function App() {
 
       {/* Section 3 & 4: Store Layout (Left Sidebar Categories + Right Product Grid) */}
       <StoreLayout />
+      <CategorySpotlight />
 
       {/* Section 5: Footer & Newsletter */}
       <Footer />
