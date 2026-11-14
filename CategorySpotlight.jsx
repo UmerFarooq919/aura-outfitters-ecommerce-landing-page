@@ -30,4 +30,11 @@ export default function CategorySpotlight() {
             />
             {/* Dark Gradient Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 via-neutral-950/20 to-transparent"></div>
-            
+            {/* Content */}
+            <div className="relative z-10 text-white space-y-3">
+              <span className="text-[10px] uppercase font-bold tracking-widest bg-white/20 backdrop-blur-md px-3 py-1 rounded-full">
+                Footwear & Acc.
+              </span>
+              <h3 className="text-2xl font-bold leading-snug">
+                Minimalist Footwear & Details
+              </h3>
