@@ -38,3 +38,6 @@ export default function CategorySpotlight() {
               <h3 className="text-2xl font-bold leading-snug">
                 Minimalist Footwear & Details
               </h3>
+              <p className="text-xs text-neutral-300 max-w-sm">
+                Complete your everyday silhouette with premium leather sneakers and subtle accessories.
+              </p>
