@@ -41,3 +41,9 @@ export default function CategorySpotlight() {
               <p className="text-xs text-neutral-300 max-w-sm">
                 Complete your everyday silhouette with premium leather sneakers and subtle accessories.
               </p>
+              <a 
+                href="#shop" 
+                className="inline-flex items-center gap-2 text-xs font-semibold pt-2 text-white hover:text-neutral-300 transition-colors"
+              >
+                Explore Footwear <ArrowRight className="w-3.5 h-3.5" />
+              </a>
