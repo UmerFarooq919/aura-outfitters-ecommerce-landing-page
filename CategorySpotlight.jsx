@@ -47,3 +47,12 @@ export default function CategorySpotlight() {
               >
                 Explore Footwear <ArrowRight className="w-3.5 h-3.5" />
               </a>
+              </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
