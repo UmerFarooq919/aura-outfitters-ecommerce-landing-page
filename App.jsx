@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import HeroBanner from './HeroBanner';
 import StoreLayout from './StoreLayout';
 import Footer from './Footer';
+import CategorySpotlight from './CategorySpotlight';
 
 function App() {
   return (
