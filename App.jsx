@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from './Navbar';
 import HeroBanner from './HeroBanner';
 import StoreLayout from './StoreLayout';
-import Footer from './Footer';
 import CategorySpotlight from './CategorySpotlight';
+import CartDrawer from './CartDrawer';
+import Footer from './Footer';
 
 function App() {
   return (
